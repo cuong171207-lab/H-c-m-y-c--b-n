@@ -1,0 +1,5 @@
+Mô hình,CV acc (mặc định),CV acc (sau GridSearch),Test acc,Tham số tốt nhất
+Logistic Regression,0.8244558258642766,0.8244558258642766,0.8379888268156425,{'C': 1}
+KNN,0.8062346104599627,0.8202698709740963,0.7821229050279329,"{'n_neighbors': 7, 'p': 2, 'weights': 'uniform'}"
+Decision Tree,0.7878656554712893,0.8244558258642766,0.8324022346368715,"{'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+Random Forest,0.8118388653599921,0.8328966807840047,0.7988826815642458,"{'max_depth': 4, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}"
